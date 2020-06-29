@@ -1,0 +1,34 @@
+.row {
+    &{
+      display: flex;
+      flex-wrap: nowrap;
+      font-size: 0;
+  }
+  & > .column {
+    display: inline-block;
+    font-size: 1rem;
+    vertical-align: top;
+    /*padding: 15px;*/
+  }
+  
+  &-large {
+    margin: -20px -16px;
+  }
+  &-large > .column {
+    margin: 20px 16px;
+  }
+  
+  &-medium {
+    margin: -20px -16px;
+  }
+  &-medium > .column {
+    padding: 20px 16px;
+  }
+  
+  &-middle {
+      margin:  -10px -5px;
+    }
+    &-middle > .column {
+      padding: 10px 5px;
+    }
+    }

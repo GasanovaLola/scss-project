@@ -1,0 +1,19 @@
+.hero {
+    & {
+        background-image: url(../../);
+        padding: 100px 0;
+	    background-color: #99CCFF;
+    }
+    block-& {
+	    max-width: 500px;
+	    text-align: left;
+}
+    title-& {
+	    color: #fff;
+}
+    description-& {
+	    font-size: 16px;
+	    color: #fff;
+	    line-height: 20px;
+    }
+}

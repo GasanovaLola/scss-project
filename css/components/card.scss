@@ -1,0 +1,17 @@
+.card {
+    & {
+        height: 100%;
+    }
+    & img {
+        width: 100%;
+        overflow: hidden;
+        height: 223.05px;
+    }
+    & p {
+        color: #666;
+        font-size: 16px;
+    }
+    & .button {
+        width: 100%;
+    }
+}

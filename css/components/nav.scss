@@ -1,0 +1,20 @@
+.nav {
+    &-item {
+        display: inline-block;
+        margin: auto 10px;
+        padding: 20px 0;
+        border-bottom: 2px solid transparent;
+        font-size: 16px;
+    }
+    &-item:hover {
+        border-bottom: 2px solid $color;
+    }
+    &-link {
+        text-decoration: none;
+        color: #333333;
+    }
+    }
+    .is-active {
+        border-bottom: 2px solid $color;
+        color: $color;
+    }
